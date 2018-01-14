@@ -1,5 +1,5 @@
 using System;
-public class SportsCar : IVehicle, IVehicleLand, IVehicleEngine, IEngineTransmission, IVehicleWheeled
+public class SportsCar : IVehicleLand, IVehicleEngine, IEngineTransmission, IVehicleWheeled
 {
     public int Wheels { get; set; } = 4;
     public double EngineVolume { get; set; } = 3.7;

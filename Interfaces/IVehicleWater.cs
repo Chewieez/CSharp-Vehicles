@@ -1,4 +1,4 @@
-public interface IVehicleWater
+public interface IVehicleWater : IVehicle
 {
     double MaxWaterSpeed { get; set; }
 }

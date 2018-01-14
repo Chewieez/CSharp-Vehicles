@@ -1,5 +1,5 @@
 using System;
-public class Boeing747 : IVehicle, IVehicleAir, IVehicleEngine, IVehicleWheeled, IVehicleDoors
+public class Boeing747 : IVehicleAir, IVehicleEngine, IVehicleWheeled, IVehicleDoors
 {
     public int Wheels { get; set; } = 10;
     public double EngineVolume { get; set; } = 4.2;

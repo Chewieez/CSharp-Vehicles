@@ -1,5 +1,5 @@
 using System;
-public class Motorboat : IVehicle, IVehicleWater, IVehicleEngine, IWaterDrive
+public class Motorboat : IVehicleWater, IVehicleEngine, IWaterDrive
 {
 
     public int PassengerCapacity { get; set; } = 8;

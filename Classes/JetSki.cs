@@ -1,5 +1,5 @@
 using System;
-public class JetSki : IVehicle, IVehicleWater, IVehicleEngine, IWaterDrive
+public class JetSki : IVehicleWater, IVehicleEngine, IWaterDrive
 {
     public int PassengerCapacity { get; set; } = 2;
     public double EngineVolume { get; set; } = 1.1;

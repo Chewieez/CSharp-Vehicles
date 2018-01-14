@@ -1,5 +1,5 @@
 using System;
-public class Cessna : IVehicle, IVehicleAir, IVehicleDoors, IVehicleEngine, IVehicleWheeled
+public class Cessna : IVehicleAir, IVehicleDoors, IVehicleEngine, IVehicleWheeled
 {
     public int Wheels { get; set; } = 3;
     public int Doors { get; set; } = 3;

@@ -1,5 +1,5 @@
 using System;
-public class Sailboat : IVehicle, IVehicleWater, IVehicleEngine, IWaterSail, IWaterDrive
+public class Sailboat : IVehicleWater, IVehicleEngine, IWaterSail, IWaterDrive
 {
     public int PassengerCapacity { get; set; } = 8;
     public double EngineVolume { get; set; } = 2.8;

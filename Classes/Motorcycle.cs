@@ -1,5 +1,5 @@
 using System;
-public class Motorcycle : IVehicle, IVehicleLand, IVehicleEngine, IVehicleWheeled, IEngineTransmission
+public class Motorcycle : IVehicleLand, IVehicleEngine, IVehicleWheeled, IEngineTransmission
 {
     public int Wheels { get; set; } = 2;
     public int PassengerCapacity { get; set; } = 2;

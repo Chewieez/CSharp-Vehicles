@@ -1,5 +1,5 @@
 using System;
-public class HangGlider : IVehicle, IVehicleAir
+public class HangGlider : IVehicleAir
 {
     public double MaxAirSpeed { get; set; } = 8;
     public int PassengerCapacity { get; set; } = 2;
